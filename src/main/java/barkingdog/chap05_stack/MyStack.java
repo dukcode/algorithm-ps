@@ -1,6 +1,6 @@
 package barkingdog.chap05_stack;
 
-public class Stack {
+public class MyStack {
 
     private final static int MX = 10000005;
     private final static int[] dat = new int[MX];
