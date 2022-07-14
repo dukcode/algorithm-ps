@@ -13,6 +13,7 @@ public class B1406 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // BufferedReader br = new BufferedReader(new FileReader("input.txt"));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         String str = br.readLine();
@@ -41,6 +42,7 @@ public class B1406 {
                     break;
                 case "B":
                     if (it.hasPrevious()) {
+                        it.previous();
                         it.remove();
                     }
                     break;
