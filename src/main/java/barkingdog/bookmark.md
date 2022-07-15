@@ -5,3 +5,7 @@
 * [백준 17298](https://www.acmicpc.net/problem/17298) - Stack 사용하지 않고 풀기
 * [백준 3015](https://www.acmicpc.net/problem/3015) - 아이디어
 * [백준 6549](https://www.acmicpc.net/problem/6549) - ★
+
+## [chap06] queue
+
+* [백준 2164](https://www.acmicpc.net/problem/2164) - 메모리 초과 이유 모름 (내 제출 확인)

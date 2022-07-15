@@ -1,4 +1,4 @@
-package chap06_queue;
+package barkingdog.chap06_queue;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
