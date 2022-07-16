@@ -9,3 +9,7 @@
 ## [chap06] queue
 
 * [백준 2164](https://www.acmicpc.net/problem/2164) - 메모리 초과 이유 모름 (내 제출 확인)
+
+## [chap07] stack_bracket
+
+* [백준 10799](https://www.acmicpc.net/problem/10799) - 괄호라고 꼭 stack을 사용하지 않아도 된다.
