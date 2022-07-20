@@ -18,3 +18,4 @@
 ## [chap09] bfs
 
 * [백준 4179](https://www.acmicpc.net/problem/4179) - 불이 없을 때도 고려
+* [백준 1697](https://www.acmicpc.net/problem/1697) - 답이 0 일 때도 고려
