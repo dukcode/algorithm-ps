@@ -1,4 +1,4 @@
-package barkingdog.chap07_stack_bracket;
+package barkingdog.chap08_stack_bracket;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
