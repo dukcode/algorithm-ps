@@ -19,3 +19,5 @@
 
 * [백준 4179](https://www.acmicpc.net/problem/4179) - 불이 없을 때도 고려
 * [백준 1697](https://www.acmicpc.net/problem/1697) - 답이 0 일 때도 고려
+* [백준 2206](https://www.acmicpc.net/problem/2206) - 답 취합이 복잡함, 다른 사람 코드 읽어보기
+* [백준 9466](https://www.acmicpc.net/problem/9466) - ★★ 강의 보기, 진짜 모르겠음, -> 꼭 다시 풀기 ★★
