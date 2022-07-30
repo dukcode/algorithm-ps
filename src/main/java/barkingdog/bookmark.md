@@ -23,6 +23,7 @@
 * [백준 9466](https://www.acmicpc.net/problem/9466) - ★★ 강의 보기, 진짜 모르겠음, -> 꼭 다시 풀기 ★★
 * [백준 2573](https://www.acmicpc.net/problem/2573) - 0을 기준으로 할지, 0이 아닌 것을 기준으로 할지 차이가 엄청 나는데 그 이유 알기
 * [백준 2146](https://www.acmicpc.net/problem/2146) - O(n^4) 풀이법, O(n^2) 풀이법
+* [백준 1600](https://www.acmicpc.net/problem/1600) - k 만큼 visited 배열을 만들어야 하는 이유 (반례 찾기 - 순서가 중요한 경우)
 
 ## [chap10] recursion
 
