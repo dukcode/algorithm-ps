@@ -28,3 +28,7 @@
 ## [chap10] recursion
 
 * [백준 1629](https://www.acmicpc.net/problem/1629) - overflow 조심
+
+## [chap11] backtracking
+
+* [백준 9663](https://www.acmicpc.net/problem/9663) - 어떤 제한의 조건을 잘 파악해보자 (뭐가 일정한지, 공통인지)
