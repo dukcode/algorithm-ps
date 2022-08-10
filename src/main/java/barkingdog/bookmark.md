@@ -35,3 +35,4 @@
 * [백준 1182](https://www.acmicpc.net/problem/1182) - 백트래킹 알고리즘은 상태공간을 다루는 알고리즘 - 상태를 결정하는 것이 무엇인가에
   집중해서 풀기
 * [백준 15663](https://www.acmicpc.net/problem/15663) - 중복 조건이 뭘까?
+* [백준 1759](https://www.acmicpc.net/problem/1759) - 상태에 집중해라
