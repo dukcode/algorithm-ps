@@ -33,4 +33,5 @@
 
 * [백준 9663](https://www.acmicpc.net/problem/9663) - 어떤 제한의 조건을 잘 파악해보자 (뭐가 일정한지, 공통인지)
 * [백준 1182](https://www.acmicpc.net/problem/1182) - 백트래킹 알고리즘은 상태공간을 다루는 알고리즘 - 상태를 결정하는 것이 무엇인가에
-  집중해서 풀어보자
+  집중해서 풀기
+* [백준 15663](https://www.acmicpc.net/problem/15663) - 중복 조건이 뭘까?
