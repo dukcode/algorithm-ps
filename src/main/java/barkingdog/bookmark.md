@@ -36,3 +36,4 @@
   집중해서 풀기
 * [백준 15663](https://www.acmicpc.net/problem/15663) - 중복 조건이 뭘까?
 * [백준 1759](https://www.acmicpc.net/problem/1759) - 상태에 집중해라
+* [백준 1941](https://www.acmicpc.net/problem/1941) - 백트랙킹 + BFS, 한 덩어리인지 판단 다른방법 뭐가 있을까?
