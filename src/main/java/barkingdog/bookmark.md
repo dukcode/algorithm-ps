@@ -38,3 +38,4 @@
 * [백준 1759](https://www.acmicpc.net/problem/1759) - 상태에 집중해라
 * [백준 1941](https://www.acmicpc.net/problem/1941) - 백트랙킹 + BFS, 한 덩어리인지 판단 다른방법 뭐가 있을까?
 * [백준 16987](https://www.acmicpc.net/problem/16987) - 상태를 이용하자.. 클래스가 꼭 필요한가?
+* [백준 18809](https://www.acmicpc.net/problem/18809) - 순열 + BFS
