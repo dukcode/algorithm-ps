@@ -40,3 +40,7 @@
 * [백준 16987](https://www.acmicpc.net/problem/16987) - 상태를 이용하자.. 클래스가 꼭 필요한가?
 * [백준 18809](https://www.acmicpc.net/problem/18809) - 순열 + BFS
 * [백준 1799](https://www.acmicpc.net/problem/1799) - 나눠 풀기
+
+## [chap12] simulation
+
+* [백준 15683](https://www.acmicpc.net/problem/15683) - 시간복잡도 구해보기, 조금의 최적화가 미치는 영향 구해보기 (미미..)
