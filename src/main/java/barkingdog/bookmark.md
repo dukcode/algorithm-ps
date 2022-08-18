@@ -4,7 +4,7 @@
 * [백준 6198](https://www.acmicpc.net/problem/6198) - 나보다 오른쪽에 작은놈 갯수 == 나보다 왼쪽에 큰놈 갯수
 * [백준 17298](https://www.acmicpc.net/problem/17298) - ★★★Stack 사용하지 않고 풀기★★★ -> 값 말고 인덱스를 저장하는건 어떨까?
 * [백준 3015](https://www.acmicpc.net/problem/3015) - 아이디어
-* [백준 6549](https://www.acmicpc.net/problem/6549) - ★
+* [백준 6549](https://www.acmicpc.net/problem/6549) - ★ + 마지막에 모두 pop 시키는 스킬
 
 ## [chap06] queue
 
