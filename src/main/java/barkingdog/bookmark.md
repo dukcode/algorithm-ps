@@ -45,3 +45,4 @@
 
 * [백준 15683](https://www.acmicpc.net/problem/15683) - 시간복잡도 구해보기, 조금의 최적화가 미치는 영향 구해보기 (미미..)
 * [백준 18808](https://www.acmicpc.net/problem/18808) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
+* [백준 12100](https://www.acmicpc.net/problem/12100) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
