@@ -13,7 +13,7 @@
 ## [chap08] stack_bracket
 
 * [백준 10799](https://www.acmicpc.net/problem/10799) - 괄호라고 꼭 stack을 사용하지 않아도 된다.
-* [백준 2504](https://www.acmicpc.net/problem/2504) - 주안점에 두고 생각하기 stack 개념을 꼭 이용할 필요는 없다.
+* [백준 2504](https://www.acmicpc.net/problem/2504) - 열릴 때가 중요할까 닫힐 때가 중요할까?
 
 ## [chap09] bfs
 
@@ -50,3 +50,4 @@
 ## [chap14] sorting 2
 
 * [백준 11652](https://www.acmicpc.net/problem/11652) - 끝까지 생각해보기
+* [백준 7795](https://www.acmicpc.net/problem/7795) - 정렬 했을 때 이점?
