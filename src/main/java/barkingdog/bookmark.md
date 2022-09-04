@@ -51,3 +51,7 @@
 
 * [백준 11652](https://www.acmicpc.net/problem/11652) - 끝까지 생각해보기
 * [백준 7795](https://www.acmicpc.net/problem/7795) - 정렬 했을 때 이점?
+
+## [chap15] dp
+
+* [백준 2579](https://www.acmicpc.net/problem/2579) - 초기값 넣을 때도 배열 크기 고려
