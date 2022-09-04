@@ -54,4 +54,4 @@
 
 ## [chap15] dp
 
-* [백준 2579](https://www.acmicpc.net/problem/2579) - 초기값 넣을 때도 배열 크기 고려
+* [백준 2579](https://www.acmicpc.net/problem/2579) - 초기값 넣을 때도 배열 크기 고려, 세가지 풀이 방법 익히기
