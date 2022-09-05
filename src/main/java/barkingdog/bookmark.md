@@ -56,3 +56,4 @@
 
 * [백준 2579](https://www.acmicpc.net/problem/2579) - 초기값 넣을 때도 배열 크기 고려, 세가지 풀이 방법 익히기
 * [백준 12852](https://www.acmicpc.net/problem/12852) - BFS로도 풀어보기
+* [백준 2193](https://www.acmicpc.net/problem/2193) - 범위 조심, cache 한줄로 가능 (숫자를 앞에 붙일건지 뒤에 붙일건지 관점의 변환)
