@@ -58,3 +58,4 @@
 * [백준 12852](https://www.acmicpc.net/problem/12852) - BFS로도 풀어보기
 * [백준 2193](https://www.acmicpc.net/problem/2193) - 범위 조심, cache 한줄로 가능 (숫자를 앞에 붙일건지 뒤에 붙일건지 관점의 변환)
 * [백준 11055](https://www.acmicpc.net/problem/11055) - O(n^2)으로 생각할수 밖에 없는 이유는?
+* [백준 14501](https://www.acmicpc.net/problem/14501) - O(n^2) vs O(n) : 거꾸로 돌기??
