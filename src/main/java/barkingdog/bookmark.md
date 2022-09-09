@@ -61,4 +61,7 @@
 * [백준 14501](https://www.acmicpc.net/problem/14501) - 154846과 같은 문제, O(n^2) vs O(n) : 거꾸로 돌기?? - 별해1
 * [백준 15486](https://www.acmicpc.net/problem/15486) - 정방향으로 분리해서 채우던가, 역방향으로 채우던가...
 * [백준 10844](https://www.acmicpc.net/problem/10844) - overflow 조심해
-  해설 이해하기
+
+## [chap16] greedy
+
+* [백준 1931](https://www.acmicpc.net/problem/1931) - 정렬 조심
