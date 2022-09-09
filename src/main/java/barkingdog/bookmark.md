@@ -1,3 +1,7 @@
+## [chap02] basic
+
+* [백준 2587](https://www.acmicpc.net/problem/2587) - 중앙값 찾는 알고리즘 공부하기, heap 자료구조와 관련있음
+
 ## [chap05] stack
 
 * [백준 1874](https://www.acmicpc.net/problem/1874) - Stack 입장에서 생각 -> loop를 어떻게 쓸 것인가??
