@@ -2,6 +2,7 @@
 
 * [백준 2587](https://www.acmicpc.net/problem/2587) - 중앙값 찾는 알고리즘 공부하기, heap 자료구조와 관련있음
 * [백준 10093](https://www.acmicpc.net/problem/10093)
+* [백준 1267](https://www.acmicpc.net/problem/1267)
 
 ## [chap05] stack
 
