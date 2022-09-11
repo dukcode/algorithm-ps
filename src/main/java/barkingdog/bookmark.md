@@ -1,10 +1,10 @@
-## [chap02] basic
+## [chap02] basic (완료)
 
 * [백준 2587](https://www.acmicpc.net/problem/2587) - 중앙값 찾는 알고리즘 공부하기, heap 자료구조와 관련있음
 * [백준 10093](https://www.acmicpc.net/problem/10093)
 * [백준 1267](https://www.acmicpc.net/problem/1267)
 
-## [chap05] stack
+## [chap05] stack (완료)
 
 * [백준 1874](https://www.acmicpc.net/problem/1874) - Stack 입장에서 생각 -> loop를 어떻게 쓸 것인가??
 * [백준 6198](https://www.acmicpc.net/problem/6198) - 나보다 오른쪽에 작은놈 갯수 == 나보다 왼쪽에 큰놈 갯수
@@ -12,11 +12,11 @@
 * [백준 3015](https://www.acmicpc.net/problem/3015) - 아이디어
 * [백준 6549](https://www.acmicpc.net/problem/6549) - ★ + 마지막에 모두 pop 시키는 스킬
 
-## [chap06] queue
+## [chap06] queue (완료)
 
 * [백준 2164](https://www.acmicpc.net/problem/2164) - 메모리 초과 이유 모름 (내 제출 확인)
 
-## [chap08] stack_bracket
+## [chap08] stack_bracket (완료)
 
 * [백준 10799](https://www.acmicpc.net/problem/10799) - 괄호라고 꼭 stack을 사용하지 않아도 된다.
 * [백준 2504](https://www.acmicpc.net/problem/2504) - 열릴 때가 중요할까 닫힐 때가 중요할까?
