@@ -76,3 +76,4 @@
 ## [chap17] math
 
 * [백준 1929](https://www.acmicpc.net/problem/1929) - 범위 조심
+* [백준 6064](https://www.acmicpc.net/problem/6064) - 유클리드 호제법
