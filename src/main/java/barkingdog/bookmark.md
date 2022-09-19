@@ -30,12 +30,13 @@
 * [백준 2573](https://www.acmicpc.net/problem/2573) - 0을 기준으로 할지, 0이 아닌 것을 기준으로 할지 차이가 엄청 나는데 그 이유 알기
 * [백준 2146](https://www.acmicpc.net/problem/2146) - O(n^4) 풀이법, O(n^2) 풀이법
 * [백준 1600](https://www.acmicpc.net/problem/1600) - k 만큼 visited 배열을 만들어야 하는 이유 (반례 찾기 - 순서가 중요한 경우)
+* [백준 13913](https://www.acmicpc.net/problem/13913) - 과정 기록은 어떻게? 여러가지 방법
 
 ## [chap10] recursion
 
 * [백준 1629](https://www.acmicpc.net/problem/1629) - overflow 조심
 
-## [chap11] backtracking
+## [chap11] backtracking (완료)
 
 * [백준 9663](https://www.acmicpc.net/problem/9663) - 어떤 제한의 조건을 잘 파악해보자 (뭐가 일정한지, 공통인지)
 * [백준 1182](https://www.acmicpc.net/problem/1182) - 백트래킹 알고리즘은 상태공간을 다루는 알고리즘 - 상태를 결정하는 것이 무엇인가에
@@ -53,7 +54,7 @@
 * [백준 18808](https://www.acmicpc.net/problem/18808) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
 * [백준 12100](https://www.acmicpc.net/problem/12100) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
 
-## [chap14] sorting 2
+## [chap14] sorting 2 (완료)
 
 * [백준 11652](https://www.acmicpc.net/problem/11652) - 끝까지 생각해보기
 * [백준 7795](https://www.acmicpc.net/problem/7795) - 정렬 했을 때 이점?
