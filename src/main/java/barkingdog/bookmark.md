@@ -32,7 +32,7 @@
 * [백준 1600](https://www.acmicpc.net/problem/1600) - k 만큼 visited 배열을 만들어야 하는 이유 (반례 찾기 - 순서가 중요한 경우)
 * [백준 13913](https://www.acmicpc.net/problem/13913) - 과정 기록은 어떻게? 여러가지 방법
 
-## [chap10] recursion
+## [chap10] recursion (완료)
 
 * [백준 1629](https://www.acmicpc.net/problem/1629) - overflow 조심
 
@@ -53,6 +53,7 @@
 * [백준 15683](https://www.acmicpc.net/problem/15683) - 시간복잡도 구해보기, 조금의 최적화가 미치는 영향 구해보기 (미미..)
 * [백준 18808](https://www.acmicpc.net/problem/18808) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
 * [백준 12100](https://www.acmicpc.net/problem/12100) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
+* [백준 11559](https://www.acmicpc.net/problem/11559)
 
 ## [chap14] sorting 2 (완료)
 
