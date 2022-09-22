@@ -54,6 +54,7 @@
 * [백준 18808](https://www.acmicpc.net/problem/18808) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
 * [백준 12100](https://www.acmicpc.net/problem/12100) - 시간복잡도 구해보기, 좀 더 간결하게 짜보기
 * [백준 11559](https://www.acmicpc.net/problem/11559)
+* [백준 14499](https://www.acmicpc.net/problem/14499) - 문제 잘 읽기
 
 ## [chap14] sorting 2 (완료)
 
