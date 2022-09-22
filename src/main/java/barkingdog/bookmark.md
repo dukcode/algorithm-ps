@@ -56,6 +56,7 @@
 * [백준 11559](https://www.acmicpc.net/problem/11559)
 * [백준 14499](https://www.acmicpc.net/problem/14499) - 문제 잘 읽기
 * [백준 16985](https://www.acmicpc.net/problem/16985) - next permutation 메서드 구현해서 해보기
+* [백준 3190](https://www.acmicpc.net/problem/3190) - 깔끔하게 다시 짜자
 
 ## [chap14] sorting 2 (완료)
 
