@@ -58,6 +58,7 @@
 * [백준 16985](https://www.acmicpc.net/problem/16985) - next permutation 메서드 구현해서 해보기
 * [백준 3190](https://www.acmicpc.net/problem/3190) - 깔끔하게 다시 짜자
 * [백준 14500](https://www.acmicpc.net/problem/14500) - 무지성 선택으로도 풀수있네?
+* [백준 13460](https://www.acmicpc.net/problem/13460) - bfs로도 풀어보기
 
 ## [chap14] sorting 2 (완료)
 
