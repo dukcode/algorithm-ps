@@ -84,3 +84,7 @@
 
 * [백준 1929](https://www.acmicpc.net/problem/1929) - 범위 조심
 * [백준 6064](https://www.acmicpc.net/problem/6064) - 유클리드 호제법
+
+## [chap18] binary search
+
+* [백준 10816](https://www.acmicpc.net/problem/10816) - upperBound, lowerBound
