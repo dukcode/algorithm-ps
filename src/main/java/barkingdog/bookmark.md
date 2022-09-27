@@ -88,3 +88,4 @@
 ## [chap18] binary search
 
 * [백준 10816](https://www.acmicpc.net/problem/10816) - upperBound, lowerBound
+* [백준 2295](https://www.acmicpc.net/problem/10816) - N^4 를 N^2lgN으로
