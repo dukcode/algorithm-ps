@@ -91,3 +91,8 @@
 * [백준 2295](https://www.acmicpc.net/problem/2295) - N^4 를 N^2lgN으로
 * [백준 1654](https://www.acmicpc.net/problem/1654) - 재밌다 parametric search
 * [백준 16401](https://www.acmicpc.net/problem/16401) - 범위 주의
+
+## [chap19] hash
+
+* [백준 13414](https://www.acmicpc.net/problem/13414) - LinkedHashMap
+
