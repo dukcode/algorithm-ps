@@ -95,4 +95,5 @@
 ## [chap19] hash
 
 * [백준 13414](https://www.acmicpc.net/problem/13414) - LinkedHashMap
+* [백준 20166](https://www.acmicpc.net/problem/13414) - 시간복잡도 계산해보기
 
