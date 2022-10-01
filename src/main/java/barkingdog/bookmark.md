@@ -31,6 +31,8 @@
 * [백준 2146](https://www.acmicpc.net/problem/2146) - O(n^4) 풀이법, O(n^2) 풀이법
 * [백준 1600](https://www.acmicpc.net/problem/1600) - k 만큼 visited 배열을 만들어야 하는 이유 (반례 찾기 - 순서가 중요한 경우)
 * [백준 13913](https://www.acmicpc.net/problem/13913) - 과정 기록은 어떻게? 여러가지 방법
+* [백준 16933](https://www.acmicpc.net/problem/16933) - ★★★★★★★★★ 부술 수 있는 기회가 남았을 때 해야할 일을 잘 생각해보자 1번
+  2번 풀이 차이점 참고
 
 ## [chap10] recursion (완료)
 
@@ -92,7 +94,7 @@
 * [백준 1654](https://www.acmicpc.net/problem/1654) - 재밌다 parametric search
 * [백준 16401](https://www.acmicpc.net/problem/16401) - 범위 주의
 
-## [chap19] hash
+## [chap19] hash (완료)
 
 * [백준 13414](https://www.acmicpc.net/problem/13414) - LinkedHashMap
 * [백준 20166](https://www.acmicpc.net/problem/20166) - 시간복잡도 계산해보기
