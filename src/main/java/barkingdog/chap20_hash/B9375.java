@@ -1,4 +1,4 @@
-package barkingdog.chap19_hash;
+package barkingdog.chap20_hash;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

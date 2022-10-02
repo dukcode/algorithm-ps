@@ -1,24 +1,24 @@
-package barkingdog.chap19_hash;
+package barkingdog.chap20_hash;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
-public class B13414 {
+public class B17219 {
 
     private static BufferedReader br;
     private static BufferedWriter bw;
     private static StringTokenizer st;
 
-    private static int k;
-    private static int l;
+    private static int n;
+    private static int m;
 
-    private static LinkedHashSet<String> set = new LinkedHashSet<>();
+    private static Map<String, String> pwMap = new HashMap<>();
 
     public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
@@ -26,21 +26,19 @@ public class B13414 {
         bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         st = new StringTokenizer(br.readLine());
-        k = Integer.parseInt(st.nextToken());
-        l = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
 
-        for (int i = 0; i < l; ++i) {
-            String id = br.readLine();
-            set.remove(id);
-            set.add(id);
+        for (int i = 0; i < n; i++) {
+            st = new StringTokenizer(br.readLine());
+            String site = st.nextToken();
+            String pw = st.nextToken();
+            pwMap.put(site, pw);
         }
 
-        Iterator<String> it = set.iterator();
-        for (int i = 0; i < k; ++i) {
-            if (!it.hasNext()) {
-                break;
-            }
-            bw.write(it.next());
+        for (int i = 0; i < m; i++) {
+            String site = br.readLine();
+            bw.write(pwMap.get(site));
             bw.newLine();
         }
 
