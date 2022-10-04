@@ -106,3 +106,6 @@
 * [백준 20166](https://www.acmicpc.net/problem/20166) - 시간복잡도 계산해보기
 * [백준 1351](https://www.acmicpc.net/problem/1351) - 메모리가 모자를 때
 
+## [chap21] binary search tree
+
+* [백준 7662](https://www.acmicpc.net/problem/7662) - TreeMap, TreeSet 사용법 익히기
