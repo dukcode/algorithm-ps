@@ -109,3 +109,4 @@
 ## [chap21] binary search tree
 
 * [백준 7662](https://www.acmicpc.net/problem/7662) - TreeMap, TreeSet 사용법 익히기
+* [백준 1202](https://www.acmicpc.net/problem/1202) - 그리디 귀류법 증명
