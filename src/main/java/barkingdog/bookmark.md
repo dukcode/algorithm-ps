@@ -111,3 +111,8 @@
 * [백준 7662](https://www.acmicpc.net/problem/7662) - TreeMap, TreeSet 사용법 익히기
 * [백준 1202](https://www.acmicpc.net/problem/1202) - 그리디 귀류법 증명
 * [백준 21939](https://www.acmicpc.net/problem/21939) - map의 도움을 받을 수 밖에 없다 자료구조상
+
+## [chap22] heap
+
+* MyHeap - 동작방식 정리
+* [백준 1715](https://www.acmicpc.net/problem/1715) - 귀류법 증명해보기 greedy
