@@ -117,3 +117,4 @@
 * MyHeap - 동작방식 정리
 * [백준 1715](https://www.acmicpc.net/problem/1715) - 귀류법 증명해보기 greedy
 * [백준 2075](https://www.acmicpc.net/problem/2075) - 메모리 제한 그리고 왜 빠를까?
+* [백준 13975](https://www.acmicpc.net/problem/13975) - 범위 주의, 귀류법 증명
