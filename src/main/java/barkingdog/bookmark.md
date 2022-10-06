@@ -118,3 +118,12 @@
 * [백준 1715](https://www.acmicpc.net/problem/1715) - 귀류법 증명해보기 greedy
 * [백준 2075](https://www.acmicpc.net/problem/2075) - 메모리 제한 그리고 왜 빠를까?
 * [백준 13975](https://www.acmicpc.net/problem/13975) - 범위 주의, 귀류법 증명
+
+## [chap23] graph
+
+## [chap24] tree
+
+## [chap25] topology_tree
+
+* [백준 2623](https://www.acmicpc.net/problem/2623) - 위상 정렬을 시도하면서 사이클 검출이 가능하다. `hasCycle()`을 구현했을 때
+  메모리 초과가 나는데 JVM 동작방식과 메모리 산출방식이 궁금해졌다.. 공부해보기
