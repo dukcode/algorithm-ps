@@ -5,11 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
-import java.util.stream.Collectors;
 
 public class B1991 {
 
@@ -26,9 +22,6 @@ public class B1991 {
         br = new BufferedReader(new InputStreamReader(System.in));
         // br = new BufferedReader(new FileReader("input.txt"));
         bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        Queue<Integer> q = Arrays.stream(new int[]{1, 2, 3}).boxed()
-                .collect(Collectors.toCollection(LinkedList::new));
-        q.stream().mapToInt(i -> i).sum();
 
         n = Integer.parseInt(br.readLine());
         lc = new int[n + 1];
