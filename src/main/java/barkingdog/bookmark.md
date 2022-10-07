@@ -63,6 +63,7 @@
 * [백준 3190](https://www.acmicpc.net/problem/3190) - 깔끔하게 다시 짜자
 * [백준 14500](https://www.acmicpc.net/problem/14500) - 무지성 선택으로도 풀수있네?
 * [백준 13460](https://www.acmicpc.net/problem/13460) - bfs로도 풀어보기
+* [백준 15684](https://www.acmicpc.net/problem/15684) - 초기값도 값이야.. 부르트포스 말고 다른 사다리 알고리즘은 존재하나 알아보기
 
 ## [chap14] sorting 2 (완료)
 
