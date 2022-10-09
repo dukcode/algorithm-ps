@@ -66,6 +66,8 @@
 * [백준 15684](https://www.acmicpc.net/problem/15684) - 초기값도 값이야.. 부르트포스 말고 다른 사다리 알고리즘은 존재하나 알아보기
 * [백준 15685](https://www.acmicpc.net/problem/15685) - 돌리는 것의 다른 방법..
 * [백준 16235](https://www.acmicpc.net/problem/16235) - 순서유지하기..
+* [백준 16236](https://www.acmicpc.net/problem/16236) - 위 왼쪽이 우선순위를 가질 때 dfs 자체로만은 해결이 불가능하다. 다 돌려보고
+  판단해야함
 
 ## [chap14] sorting 2 (완료)
 
