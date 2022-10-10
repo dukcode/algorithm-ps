@@ -67,7 +67,11 @@
 * [백준 15685](https://www.acmicpc.net/problem/15685) - 돌리는 것의 다른 방법..
 * [백준 16235](https://www.acmicpc.net/problem/16235) - 순서유지하기..
 * [백준 16236](https://www.acmicpc.net/problem/16236) - 위 왼쪽이 우선순위를 가질 때 dfs 자체로만은 해결이 불가능하다. 다 돌려보고
-  판단해야함
+  판단해야함, 깔끔하게 짜보기
+* [백준 17140](https://www.acmicpc.net/problem/17140) - 열에 대한 연산이 필요할 땐 Array 자체를 돌리는것도 고려해보자( 순서가
+  중요하지 않을 때는 transepose도 괜찮다),
+  PriorityQueue 는 iter로 뽑아내면 꼬여서 나온다.. 연산 결과 Array의 크기가 줄거나 늘어나는 것은 항상 size 체크가 필수이다. 문제에서 주어지는 값의
+  범위를 잘 확인하면 깔끔하게 짤 수 있다. 다시 짜보, 동적배열로 짜지 않았을 때 이득이 있다. 범위 체크를 안해도 되는 (해설 확인)
 
 ## [chap14] sorting 2 (완료)
 
@@ -118,6 +122,8 @@
 * [백준 21939](https://www.acmicpc.net/problem/21939) - map의 도움을 받을 수 밖에 없다 자료구조상
 
 ## [chap22] heap
+
+PriorityQueue는 iter 쓰면 꼬임!!!!!!!
 
 * MyHeap - 동작방식 정리
 * [백준 1715](https://www.acmicpc.net/problem/1715) - 귀류법 증명해보기 greedy
