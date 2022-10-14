@@ -95,6 +95,7 @@
 * [백준 11052](https://www.acmicpc.net/problem/11052) - 범위 개선
 * [백준 11057](https://www.acmicpc.net/problem/11057) - 중복 조합으로 생각해보자
 * [백준 2293](https://www.acmicpc.net/problem/2293) - dp를 채우는 순서에 따라 값이 달라진다.
+* [백준 1699](https://www.acmicpc.net/problem/1699) - 쉬운데.. 다시해보기
 
 ## [chap16] greedy
 
