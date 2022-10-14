@@ -92,6 +92,7 @@
 * [백준 10844](https://www.acmicpc.net/problem/10844) - overflow 조심해
 * [백준 14002](https://www.acmicpc.net/problem/14002) - lowerBound 쓰기, 수열까지 구하기
 * [백준 2302](https://www.acmicpc.net/problem/2302) - 아이디어
+* [백준 11052](https://www.acmicpc.net/problem/11052) - 범위 개선
 
 ## [chap16] greedy
 
