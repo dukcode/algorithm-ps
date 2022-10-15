@@ -99,6 +99,7 @@
 * [백준 1915](https://www.acmicpc.net/problem/1915) - 꼭지점으로 생각해보기
 * [백준 2011](https://www.acmicpc.net/problem/2011) - 두자리는 10부터다..
 * [백준 2133](https://www.acmicpc.net/problem/2133) - 내 방법 말고 다른 방법이 있는데 나중에 복습하며 읽어보자.
+* [백준 1520](https://www.acmicpc.net/problem/1520) - dfs로 풀어보기, bfs는 안되나 알아보기
 
 ## [chap16] greedy
 
