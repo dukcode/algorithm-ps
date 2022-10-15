@@ -100,6 +100,7 @@
 * [백준 2011](https://www.acmicpc.net/problem/2011) - 두자리는 10부터다..
 * [백준 2133](https://www.acmicpc.net/problem/2133) - 내 방법 말고 다른 방법이 있는데 나중에 복습하며 읽어보자.
 * [백준 1520](https://www.acmicpc.net/problem/1520) - dfs로 풀어보기, bfs는 안되나 알아보기
+* [백준 9657](https://www.acmicpc.net/problem/9657) - 정석 풀이법이 뭘까?
 
 ## [chap16] greedy
 
