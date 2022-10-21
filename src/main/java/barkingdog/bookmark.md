@@ -107,6 +107,7 @@
 
 * [백준 1931](https://www.acmicpc.net/problem/1931) - 정렬 조심
 * [백준 1026](https://www.acmicpc.net/problem/1026) - 재배열 부등식 증명해보기
+* [백준 2457](https://www.acmicpc.net/problem/2457) - 날짜를 숫자로 바꾸면 3/5 -> 0305 더 빠를듯 다시 구현해보기
 
 ## [chap17] math
 
