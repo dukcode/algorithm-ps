@@ -2,35 +2,37 @@ package barkingdog.chap02_basic;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
+import java.util.StringTokenizer;
 
-/**
- * B10871
- */
 public class B10871 {
+	private static BufferedReader br;
+	private static BufferedWriter bw;
+	private static StringTokenizer st;
 
-    public static void main(String[] args) throws IOException {
-        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	public static void main(String[] args) throws IOException {
+		br = new BufferedReader(new InputStreamReader(System.in));
+		// br = new BufferedReader(new FileReader("input.txt"));
+		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int[] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::valueOf).toArray();
-        int max = arr[1];
+		st = new StringTokenizer(br.readLine());
 
-        int[] nums = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::valueOf).toArray();
+		int n = Integer.parseInt(st.nextToken());
+		int x = Integer.parseInt(st.nextToken());
 
-        for (int num : nums) {
-            if (num < max) {
-                bw.write(String.valueOf(num));
-                bw.write(" ");
-            }
-        }
+		st = new StringTokenizer(br.readLine());
+		for (int i = 0; i < n; ++i) {
+			int num = Integer.parseInt(st.nextToken());
+			if (num < x) {
+				bw.write(String.valueOf(num));
+				bw.write(' ');
+			}
+		}
 
-        bw.flush();
-        bw.close();
-        br.close();
-    }
+		br.close();
+		bw.close();
+	}
+
 }
