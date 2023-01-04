@@ -26,10 +26,15 @@
   해당 `index`를
   적는다.
 
-[B3015](https://www.acmicpc.net/problem/3015) - 오아시스 재결합
+### [B3015](https://www.acmicpc.net/problem/3015) - 오아시스 재결합
 
 처음에 같은 키의 중복에 대해서 고려했지만 처음 pop 시킬때 고려한 것이 아니라 후에 push할때 중복을 고려했다.
 
 ![](https://i.imgur.com/YqzPeag.png)
 
 그러면 `if`문에서 중복된 덩어리와 이전 사람이 고려가 안된다. `if`문 안에서 문에 1을 더 더해줘야한다.(이전 사람이 empty가 아닐때) 코드가 복잡해지므로 앞에서 한방에..
+
+### [B6549](https://www.acmicpc.net/problem/6549) - 히스토그램에서 가장 큰 직사각형
+
+★★★★★★★★★★★★★★
+
