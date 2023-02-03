@@ -8,7 +8,7 @@ class NextPermutationTest {
 
 	@Test
 	void test() {
-		int[] arr = {1, 2, 3, 3, 4};
+		int[] arr = {0, 0, 1, 1, 1};
 
 		int cnt = 1;
 		do {
