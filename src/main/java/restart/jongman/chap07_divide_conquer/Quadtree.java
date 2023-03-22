@@ -2,25 +2,23 @@ package restart.jongman.chap07_divide_conquer;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.text.StringCharacterIterator;
-import java.util.StringTokenizer;
 
 public class Quadtree {
 
 	private static BufferedReader br;
 	private static BufferedWriter bw;
-	private static StringTokenizer st;
 
 	private final static int MX = 1 << 4;
 	private static char[][] decompressed;
 	private static int c;
 
 	public static void main(String[] args) throws IOException {
-		br = new BufferedReader(new FileReader("input.txt"));
-		// br = new BufferedReader(new InputStreamReader(System.in));
+		// br = new BufferedReader(new FileReader("input.txt"));
+		br = new BufferedReader(new InputStreamReader(System.in));
 		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 		c = Integer.parseInt(br.readLine());
