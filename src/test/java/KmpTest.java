@@ -1,52 +1,95 @@
-import org.assertj.core.api.Assertions;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import org.junit.jupiter.api.Test;
 
 public class KmpTest {
 
   @Test
   public void kmpTest() {
-    String s = "aabaabac";
+    String text = "asdfasdfasdfasdfsadffsadasdfsadfsadfsadffsadasdffasdfasdafasf";
+    String pattern = "asdfasdf";
 
-    int[] pm1 = calPm1(s);
-    int[] pm2 = calPm2(s);
-    Assertions.assertThat(pm1).containsExactly(pm2);
-  }
-
-  public int[] calPm1(String s) {
-    int n = s.length();
-    int[] ret = new int[n];
-
-    int matched = 0;
-    for (int i = 1; i < n; ++i) {
-      while (matched > 0 && s.charAt(i) != s.charAt(matched)) {
-        matched = ret[matched - 1];
-      }
-
-      if (s.charAt(i) == s.charAt(matched)) {
-        matched++;
-        ret[i] = matched;
+    List<Integer> result = find2(text, pattern);
+    char[] visualization = new char[text.length()];
+    Arrays.fill(visualization, ' ');
+    for (int idx : result) {
+      for (int i = idx; i < idx + pattern.length(); ++i) {
+        visualization[i] = '_';
       }
     }
+    for (int idx : result) {
+      visualization[idx] = '!';
+    }
 
-    return ret;
+    System.out.println(text);
+    System.out.println(visualization);
   }
 
-  public int[] calPm2(String s) {
-    int n = s.length();
-    int[] ret = new int[n];
-
-    int begin = 1;
+  private static List<Integer> find(String text, String pattern) {
+    int[] pm = calPartialMatches(pattern);
+    List<Integer> ret = new ArrayList<>();
+    int m = text.length();
+    int n = pattern.length();
+    int begin = 0;
     int matched = 0;
-    while (begin + matched < n) {
-      if (s.charAt(matched) == s.charAt(begin + matched)) {
+    while (begin < m - n) {
+      if (matched < n && text.charAt(begin + matched) == pattern.charAt(matched)) {
         matched++;
-        ret[begin + matched - 1] = matched;
+        if (matched == n) {
+          ret.add(begin);
+        }
       } else {
         if (matched == 0) {
           begin++;
         } else {
-          begin += matched - ret[matched - 1];
-          matched = ret[matched - 1];
+          begin += matched - pm[matched - 1];
+          matched = pm[matched - 1];
+        }
+      }
+    }
+    return ret;
+  }
+
+  private static int[] calPartialMatches(String pattern) {
+    int n = pattern.length();
+    int[] pm = new int[n];
+
+    int begin = 1;
+    int matched = 0;
+    while (begin + matched < n) {
+      if (pattern.charAt(begin + matched) == pattern.charAt(matched)) {
+        matched++;
+        pm[begin + matched - 1] = matched;
+      } else {
+        if (matched == 0) {
+          begin++;
+        } else {
+          begin += matched - pm[matched - 1];
+          matched = pm[matched - 1];
+        }
+      }
+    }
+    return pm;
+  }
+
+  private static List<Integer> find2(String text, String pattern) {
+    int[] pm = calPartialMatches2(pattern);
+    List<Integer> ret = new ArrayList<>();
+    int m = text.length();
+    int n = pattern.length();
+
+    int matched = 0;
+    for (int i = 0; i < m; ++i) {
+      while (matched > 0 && pattern.charAt(matched) != text.charAt(i)) {
+        matched = pm[matched - 1];
+      }
+
+      if (pattern.charAt(matched) == text.charAt(i)) {
+        matched++;
+        if (matched == n) {
+          ret.add(i - n + 1);
+          matched = pm[matched - 1];
         }
       }
     }
@@ -54,4 +97,23 @@ public class KmpTest {
     return ret;
   }
 
+  private static int[] calPartialMatches2(String pattern) {
+    int n = pattern.length();
+    int[] pm = new int[n];
+
+    int matched = 0;
+    for (int i = 1; i < n; ++i) {
+      while (matched > 0 && pattern.charAt(matched) != pattern.charAt(i)) {
+        matched = pm[matched - 1];
+      }
+
+      if (pattern.charAt(matched) == pattern.charAt(i)) {
+        matched++;
+        pm[i] = matched;
+      }
+    }
+
+    System.out.println(Arrays.toString(pm));
+    return pm;
+  }
 }
