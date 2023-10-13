@@ -31,7 +31,7 @@ public class B12738 {
         }
 
         cache = new int[n + 1];
-        bw.write(String.valueOf(lisTopDown(-1) - 1));
+        bw.write(String.valueOf(lisBottomUp()));
 
         bw.close();
         br.close();
@@ -52,5 +52,21 @@ public class B12738 {
         return cache[start + 1];
     }
 
+    private static int lisBottomUp() {
+        int ret = Integer.MIN_VALUE;
+        int[] cache = new int[n];
+
+        for (int now = 0; now < n; ++now) {
+            cache[now] = 1;
+            for (int before = 0; before < now; ++before) {
+                if (arr[before] < arr[now]) {
+                    cache[now] = Math.max(cache[now], cache[before] + 1);
+                }
+            }
+            ret = Math.max(ret, cache[now]);
+        }
+
+        return ret;
+    }
 
 }
