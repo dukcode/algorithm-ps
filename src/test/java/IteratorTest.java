@@ -71,6 +71,37 @@ class IteratorTest {
     //   1   0 | 4   5   6   7
     lit.add(0);
     System.out.println("list = " + list);
+  }
 
+  @Test
+  public void iteratorTest3() {
+    int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7};
+
+    List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
+
+    ListIterator<Integer> lit = list.listIterator(2);
+
+    //   1   2 | 3   4   5   6   7
+    //   1 | 2   3   4   5   6   7
+    assertThat(lit.previous()).isEqualTo(2);
+
+    //   1   2   3   4   5   6   7
+    //   1 | 3   4   5   6   7
+    lit.remove();
+    assertThat(list).containsExactly(1, 3, 4, 5, 6, 7);
+
+    //   1 | 3   4   5   6   7
+    // | 1   3   4   5   6   7
+    assertThat(lit.previous()).isEqualTo(1);
+
+    // | 1   3   4   5   6   7
+    // | 3   4   5   6   7
+    lit.remove();
+    assertThat(list).containsExactly(3, 4, 5, 6, 7);
+
+    // | 3   4   5   6   7
+    //   0 | 3   4   5   6   7
+    lit.add(0);
+    System.out.println("list = " + list);
   }
 }
