@@ -1,57 +1,57 @@
 package restart.barkingdog.chap11_backtracking;
 
-import java.util.Arrays;
-
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
 
 class NextPermutationTest {
 
-	@Test
-	void test() {
-		int[] arr = {0, 1, 2, 3, 4};
+    private static boolean nextPermutation(int[] arr) {
+        int length = arr.length;
 
-		int cnt = 1;
-		do {
-			System.out.println(Arrays.toString(arr));
-		} while (nextPermutation(arr));
+        int leftIdx = length - 2;
+        while (leftIdx >= 0 && arr[leftIdx] >= arr[leftIdx + 1]) {
+            leftIdx--;
+        }
 
-		System.out.println("cnt = " + cnt);
-	}
+        if (leftIdx == -1) {
+            return false;
+        }
 
-	private static boolean nextPermutation(int[] arr) {
-		int length = arr.length;
+        int rightIdx = length - 1;
+        while (arr[leftIdx] >= arr[rightIdx]) {
+            rightIdx--;
+        }
 
-		int leftIdx = length - 2;
-		while (leftIdx >= 0 && arr[leftIdx] >= arr[leftIdx + 1]) {
-			leftIdx--;
-		}
+        swap(arr, leftIdx, rightIdx);
 
-		if (leftIdx == -1) {
-			return false;
-		}
+        int start = leftIdx + 1;
+        int end = length - 1;
+        while (start < end) {
+            swap(arr, start, end);
+            start++;
+            end--;
+        }
 
-		int rightIdx = length - 1;
-		while (arr[leftIdx] >= arr[rightIdx]) {
-			rightIdx--;
-		}
+        return true;
+    }
 
-		swap(arr, leftIdx, rightIdx);
+    private static void swap(int[] arr, int a, int b) {
+        int tmp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = tmp;
+    }
 
-		int start = leftIdx + 1;
-		int end = length - 1;
-		while (start < end) {
-			swap(arr, start, end);
-			start++;
-			end--;
-		}
+    @Test
+    void test() {
+        int[] arr = {0, 1, 2, 3, 4};
 
-		return true;
-	}
+        int cnt = 1;
+        do {
+            System.out.println(Arrays.toString(arr));
+        } while (nextPermutation(arr));
 
-	private static void swap(int[] arr, int a, int b) {
-		int tmp = arr[a];
-		arr[a] = arr[b];
-		arr[b] = tmp;
-	}
+        System.out.println("cnt = " + cnt);
+    }
 
 }
